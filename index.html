@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit yadav</title>
+    <link href="stylesheet1.css" rel="stylesheet" />
+    <link href="video-playlist-stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+        
+            <div class="header">
+              <div class="full-name">
+                <span class="first-name">Ankit </span>
+                <span class="last-name">Yadav</span>
+          </div>
+          </div>
+          <div class=" nav-bar">
+              <nav>
+                <a href="#playlist">Video Gallery</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#Education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+              </nav>
+      </div>    
+      </div>
+     
+    </header>
+    <div class="container">
+    <div class="first-container">
+        <div id="video-container">
+            <div id="playlist">
+    
+              <p>vedio gallery </p>
+              <br><br>
+    
+              <div class="video-item image-container" onclick="playVideo('Meet.mp4')">
+                <img src="introduction.jpg" alt="Video Thumbnail 1">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>Introduction </p>
+    
+              <div class="video-item image-container" onclick="playVideo('Pet.mp4')"> 
+                <img src="django.jpg" alt="Video Thumbnail 1">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>django E-commerce </p>
+              <div class="video-item image-container" onclick="playVideo('security.mp4')">
+                <img src="scrapy.png" alt="Video Thumbnail 2">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>Web Scrapping </p>
+              <div class="video-item image-container" onclick="playVideo('VIDEO_ID_1', 'THUMBNAIL_URL_1')">
+                <img src="crm.jpg" alt="Video Thumbnail 1">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>dJango CRM </p>
+              <div class="video-item image-container" onclick="playVideo('Automating.mp4')">
+                <img src="email.png" alt="Video Thumbnail 1">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>Email Automation </p>
+              <div class="video-item image-container" onclick="playVideo('')">
+                <img src="1..jpg" alt="Video Thumbnail 1">
+                <div class="play-button"></div>
+    
+              </div>
+              <p>practice HTML CSS </p>
+    
+    
+            </div>
+    
+            <div id="video-player">
+              <div id="popup-video">
+                <div class="controls">
+                  <button onclick="closeVideo()">Close</button>
+                </div>
+                <iframe id="video-frame" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+    <div class="second-container">
+
+        
+        <div class="header">
+        <div class="details">
+          <div class="section" id="about"  >
+            <div class="section__title">ABout </div>
+
+            <span class="desc">
+              Passionate and driven recent graduate in mechanical engineering making a shift into the IT industry,
+              with a focus on web development. Striving to ignite my professional journey in a stimulating and
+              everevolving setting. Determined to leverage my expertise and acquire hands-on experience to propel
+              organizational achievements. A proactive individual with a sharp ability to grasp new concepts swiftly,
+              adept at effective communication, and excelling in collaborative team settings.
+
+            </span>
+            <br>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="details">
+
+        <div class="section" id ="projects">
+          <div class="section__title">Projects</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="section__list-item">
+                <div class="name">Automated Job Inquiry Email Script:</div>
+                <div class="text">
+                  <li>Developed a Python script leveraging the <b><u>smtplib library</u></b> to automate the process of
+                    sending job
+                    inquiry emails to Human Resources professionals.</li>
+                  <li>
+                    Utilized a CSV file containing HR email contacts and dynamically personalized each email with a
+                    predefined template, streamlining the outreach process.
+                  </li>
+
+                  <br>
+                </div>
+              </div>
+              <div class="section__list-item">
+                <div class="name" font-style>Web Scraping and email Notification Project </div>
+                <div class="text">
+                  <li>Executed the project within the context of a cybersecurity-focused company, emphasizing the
+                    alignment of the project with the company's objectives and values.</li>
+                  <li>Utilizing Scrapy in Python for web scraping.</li>
+                  <li>Processed each domain, removing "www." and obtaining the base domain for further analysis.</li>
+                  <li> Extracted email addresses from different domains by parsing the HTML content of web pages
+                    retrieved during web scraping.</li>
+                  <li>Integrated secure practices, such as SSL encryption for email communication</li>
+                  <li> This involved sending emails to website owners about vulnerabilities using the SMTP protocol.
+                  </li>
+                  <br>
+                </div>
+              </div>
+
+              <div class="name"><a href=""> Django E-commerce App (Pet Store App)</a></div>
+              <div class="text">
+                <li> Developed a dynamic e-commerce application using the Django framework to mimic the functionality of
+                  an online pet store.</li>
+                <li>Designed and implemented user authentication, product catalog, shopping cart, and secure payment
+                  processing functionalities.</li>
+                <li> Utilized Django's Model-View-Template (MVT) architecture to create a modular and maintainable
+                  codebase, enhancing scalability and code readability.</li>
+                <li> Incorporated responsive design principles to ensure optimal user experience across various devices.
+                </li>
+                <li>Integrated RESTful APIs to enable seamless communication between the Django E-commerce app and
+                  external services,
+                  facilitating functionalities such as real-time updates on product availability, order tracking.</li>
+              </div>
+              <br>
+            </div>
+
+            <div class="section__list-item">
+              <div class="name"><a href="https://github.com/SPYDIANKIT/MR_crm">Python: CRM (Customer Relationship
+                  Management) Application</a></div>
+              <div class="text"> Engineered a CRM application using Python, allowing businesses to effectively manage
+                customer interactions and improve
+                customer relationships.
+                Implemented features such as contact management, task tracking, and communication history, providing a
+                comprehensive
+                tool for maintaining client relationships.
+              </div>
+              <br>
+
+              <div class="section__list-item">
+                <div class="name" font-style>SQL: Hotel/Café Order Management Database</div>
+                <div class="text">Created a robust and efficient database system for managing orders in a hotel/café
+                  setting using MY-SQL.
+                  Designed the database schema, including tables for orders, customers, menu items, and transactions.
+                  Implemented complex SQL queries to retrieve, update, and analyze order data, contributing to
+                  streamlined
+                  order processing
+                  and improved customer service.</div>
+              </div>
+              <br>
+              
+
+              <div class="section__list-item">
+                <div class="name">HTML/CSS: Amazon Home Page Clone</div>
+              </div>
+              <br>
+              <div class="section" id="skills">
+                <div class="section__title">Skills</div>
+                <div class="skills">
+                  <div class="skills__item">
+                    <div class="left">
+                      <div class="name">
+                        Programming Languages
+                      </div>
+                    </div>
+                    <div class="right">
+                      C++, Python and java
+
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="skills__item">
+                  <div class="left">
+                    <div class="name">
+                      Database</div>
+                  </div>
+                  <div class="right">
+                    Familiarity with SQL and MY-SQL
+                  </div>
+                </div>
+                <div class="skills__item">
+                  <div class="left">
+                    <div class="name">
+                      Web Designing </div>
+                  </div>
+                  <div class="right">
+                    HTML, CSS,Js,Bootstrap
+                  </div>
+                </div>
+                <div class="skills__item">
+                  <div class="left">
+                    <div class="name">
+                      Franeworks </div>
+                  </div>
+                  <div class="right">
+                    Django & spring boot.
+                  </div>
+                </div>
+                <div class="skills__item">
+                  <div class="left">
+                    <div class="name">
+                      Version Control Systems </div>
+                  </div>
+                  <div class="right">
+                    GitHub
+                  </div>
+                </div>
+                <div class="skills__item">
+                  <div class="left">
+                    <div class="name">
+                      currently learning </div>
+                  </div>
+                  <div class="right">
+                    Java frameworks(springboot) & Aws
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="details">
+        <div class="section" id="Education">
+          <div class="section__title">education</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">Viva Institue of Technology</div>
+                <div class="addr">Virar</div>
+                <div class="duration"> 2018-2022 </div>
+              </div>
+              <div class="right">
+                <div class="name">Mechanical engineering</div>
+                <div class="desc">Bachelors Of Engineering </div>
+                <div calss="desc">7.9CGPA</div>
+
+                <div class="desc"></div>
+              </div>
+            </div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">Thakur college of science and commerce </div>
+                <div class="addr">kandiwali</div>
+                <div class="duration">2016-2018</div>
+              </div>
+              <div class="right">
+                <div class="name">Science</div>
+                <div class="desc">Maths,CS</div>
+                <DIV class="desc">75.4%</DIV>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+<br>
+<div class="details">
+    <div class="section" id="Education">
+      <div class="section__title">Experience</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Python Developer Intern </div>
+            <div class="addr"><b><u>Cybertix.in</u></b></div>
+            <div class="duration"> </div>
+          </div>
+          <div class="right">
+            <div class="name">Oct 2023- Jan 2024</div>
+            
+
+            
+          </div>
+          <div class="desc" style=" padding:40px">
+            <ul>
+                <li>
+                    Completed a 3-month Python Developer internship at Cybertix, specializing in cybersecurity.
+                </li>
+                <li>
+                    Integrated secure coding practices and encryption techniques into Python-based projects.
+                </li>
+                <li>
+                    Acknowledged for seamless collaboration and being an integral part of the team under the guidance of Mr. Chirag Ketan Prajapati.
+                </li>
+            </ul></div>
+        </div>
+
+    </div>
+
+  </div>
+
+
+  
+<div class="details">
+  <div class="section" id="Education">
+    <div class="section__title">contact</div>
+    <div class="section__list">
+      <div class="section__list-item">
+        
+          <b>Email:</b> <u>ankityadav1234567890i@gmail.com</u>
+          <br>
+          <b>phone :</b> +91 7021980233
+        </div>
+       
+  
+    
+    
+<section class="contact" id="contact">
+  <div class="social-links">
+    <h3>Connect with Me</h3>
+    <ul>
+      <a href="https://www.linkedin.com/in/ankit-yadav-525466197/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;&nbsp; &nbsp;&nbsp; 
+     <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp;&nbsp; &nbsp;&nbsp;
+     <a href="https://twitter.com/yourtwitterhandle" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </ul>
+  </div>
+  </section>
+
+  
+    </div>
+  </div>
+
+    </div>
+</div>
+
+  
+
+<script src="resume-script.js"></script>
+<script src="video-playlist-script.js"></script>
+  </body>
+</html>
